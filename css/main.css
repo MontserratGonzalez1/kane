@@ -1,221 +1,131 @@
-header {
-	background-color: #008516;
-	padding: 20px 20px;
+/*tipo de fuente*/
+*{
+	font-family: 'Roboto', sans-serif;
+	color: #FFF;
+	font-size: 1em;
 }
-
-#back1 {
+body{
+	padding-top: 5%;
+}
+/*color menu*/
+.bg-verde{
+	background-color: #26AD60;
+}
+/*estilos del menu*/
+.navbar{
+	border-radius: 0;
+}
+/*color texto negro*/
+.texto-negro{
+	color: #000;
+}
+.nav>li>a:focus, .nav>li>a:hover{
+	background-color: #fff;
+	border-radius: 20px;
+	color: #000;
+}
+/*texto blanco*/
+a, .fa{
+	color: #fff;
+}
+/*color texto gris*/
+input, .texto-gris{
+	color: #515151;
+}
+/*imagen de fondo texto principal*/
+.carousel-bg{
 	background-image: url("../img/carousel-bg.jpg");
+	background-repeat: no-repeat;
 	background-size: cover;
-	color: #fff;
-	text-align: center;
-
+	background-position: 100%;
 }
-
-a {
+/*encabezzados*/
+h1, h2, h3, h4, h5{
+	font-weight: normal;
+}
+/*texto principal*/
+h1{
+	font-size: 3em;
+	letter-spacing: 1px;
+}
+.text-1{
+	font-size: 1.5em;
+}
+/*texto de subtitulos*/
+h2{
+	font-size: 3.5em;
+	word-spacing: 10px;
+}
+/*estilo de linea*/
+hr.linea-negra{
+	border-color: #000;
+	width: 15%;
+}
+/*linea blanca*/
+.linea-blanca{
+	border-color: #fff;
+	width: 15%;
+}
+/*linea puntos*/
+.linea-puntos{
+	border-style: dashed;
+	border-color: #D2D2D2;
+}
+a:hover{
 	text-decoration: none;
-	color: #fff;
+	color: #191A3D;
 }
-
-ul {
-	list-style: none;
-	color: #fff;
+/*fondo azul*/
+.bg-azul{
+	background-color: #2D3E50;
 }
-
-
-li {
-	display: inline-block;
-	margin-left: 20px;
-	margin-top: 20px;
-}
-
-input {
-	width: 600px;
-	margin-top: 10px;
-	margin-left: 300px;
-}
-
-.input-mensaje {
-	height: 200px;
-}
-
-hr {
-	border: 1px black solid;
-	width: 180px;
-}
-	
-
-
-	/* COLORES */
-.ancho{
-	width:16.66%;
-  }
-
-.alto {
-	height: 150px;
-}
-
-
-#C-69D2E7 {
-	background-color: #69D2E7;
-}
-#C-A7DBDB {
-	background-color: #A7DBDB;
-}
-#C-E0E4CC {
-	background-color: #E0E4CC;
-}
-#C-F38630 {
-	background-color: #F38630;
-}
-#C-FA6900 {
-	background-color: #FA6900;
-}
-
-
-#C-E94C6F {
-	background-color: #E94C6F;
-}
-#C-542733 {
-	background-color: #542733;
-}
-#C-5A6A62 {
-	background-color: #5A6A62;
-}
-#C-C6D5CD {
-	background-color: #C6D5CD;
-}
-#C-FDF200 {
-	background-color: #FDF200;
-}
-
-
-#C-DB3340 {
-	background-color: #DB3340;
-}
-#C-E8B71A {
-	background-color: #E8B71A;
-}
-#C-F7EAC8 {
-	background-color: #F7EAC8;
-}
-#C-1FDA9A {
-	background-color: #1FDA9A;
-}
-#C-28ABE3 {
-	background-color: #28ABE3;
-}
-
-
-.back-gris {
-	background-color: #496067;
-}
-
-.back-verde {
-	background-color: #28bd6e;
-}
-
-.back-redes {
+/*imagen fondo de redes*/
+.bg-redes{
 	background-image: url("../img/img-divider-img.jpg");
-	background-size: cover;
+	background-size: 100%;
+	background-position: top;
+	width: 100%;
 }
-
-.redes {
-	width: 100px;
-	height:100px;
-	margin-left: 50px;
+/*barras de progreso*/
+.barras{
+	height: 10px;
+	border-radius: 0;
+	margin-bottom: 1%;
 }
-
-.mail-footer {
-	width: 200px;
+.position, .btn-gris{
+	background-color: #433E42;
+	border: none;
 }
-
-/* EXTRAS*/
-
-
-.pa-2-5{
-		padding: 2% 5%;
+/*tabla de precios*/
+table{
+	border: 1px solid #26AD60;
 }
-
-.te-center {
-	text-align: center;
+.tcafe{
+	background-color: #8F5F37;/*color cafe*/ 
 }
-
-.titulo {
-	font-size: 4em;
+.tblanca{
+	background-color: #FFF;
 }
-
-.blanco{
-	color: #fff;
+thead>tr>th{
+	border-bottom: 0 !important;
 }
-
-.top20 {
-	margin-top: 20px;
+th{
+	font-size: 1.5em;
 }
-
-.top70 {
-	margin-top: 70px;
+td>strong{
+	font-size: 2.5em;
 }
-
-.bottom30 {
-	margin-bottom: 30px;
+.tverde{
+	background-color: #26AD60 !important;
 }
-
-.left200 {
-	margin-left: 200px;
+/*clientes*/
+blockquote{
+	border-left: 0;
 }
-
-.pad-left {
-	padding-left: 170px;
+.text-naranja{
+	color: #BE7738;
 }
-
-.pad-left200 {
-	padding-left: 200px;
-}
-
-.pad-bt {
-	padding-bottom: 100px;
-}
-
-	/* MEDIA */
-
-@media screen and (max-width: 992px) {
-	ul {
-		display: none;
-
-	}
-
-	h2 {
-		font-size: 1em;
-	}	
-
-	.titulo {
-		font-size: 2em;
-	}
-
-	.tamaño{
-		width:100%;
-  	}
-
-  	.renglon2 {
-  		display: none;
-  	}
-
-  	.icon {
-  		margin-left: 30%;
-  	}
-
-  	input {
-		width: 100%;
-		margin-top: 10px;
-		margin-left: 0px;
-	}
-
-	.redes {
-		width: 50%;
-		height: 50%;
-		display: block;
-		margin-top: 10px;
-		
-	}
-
+/*input de footer*/
+.icon{
+	border: 0;
 }

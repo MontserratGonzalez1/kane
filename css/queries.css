@@ -1,0 +1,112 @@
+@media (max-width: 767px) {
+	.caja-color{
+		height: 50px;
+		width: 100%;
+		text-align: center;
+	}
+	/*espacio del boton de precios*/
+	.espacio{
+		padding: 5% !important;
+	}
+	/*input de footer*/
+	.icon{
+		width: 90%;
+		padding-left: 2%; 	
+	}
+	input.icon{
+		padding: 2% 8%;
+	}
+	/*posicion de icon input*/
+	.position{
+		padding: 3%;
+		position: absolute;
+		left: 5%;
+	}
+	h1{
+		font-size: 2em;
+		letter-spacing: 2px;
+	}
+	.text-1{
+		font-size: .5em;
+	}
+	/*texto de subtitulos*/
+	h2{
+		font-size: 1.5em;
+		word-spacing: 10px;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.caja-color{
+		height: 100px;
+		width: 20%;
+		text-align: center;
+	}
+	/*espacio del boton de precios*/
+	.espacio{
+		padding: 10% !important;
+	}
+	/*input de footer*/
+	.icon{
+		width: 80%;
+		padding-left: 2%;
+	}
+	/*posicion de icon input*/
+	.position{
+		padding: 2%;
+		position: absolute;
+		left: 7%;
+	}
+	h1{
+		font-size: 4em;
+		letter-spacing: 2px;
+	}
+	.text-1{
+		font-size: 2em;
+	}
+	/*texto de subtitulos*/
+	h2{
+		font-size: 2.5em;
+		word-spacing: 10px;
+	}
+}
+@media (min-width: 1024px) {
+	/*espacio del boton de precios*/
+	.espacio{
+		padding: 15% !important;
+	}
+	/*input de footer*/
+	.icon{
+		width: 60%;
+		padding-left: 2%;
+	}
+	/*posicion de icon input*/
+	.position{
+		padding: 1.2%;
+		position: absolute;
+		left: 17%;
+	}
+	/*tabla de precios con efecto*/
+	table:hover{
+		border: 1px solid #8F5F37;
+		cursor: pointer;
+		margin-top: 15%;
+	}
+	/*animacion de rotar en what we do*/
+	.rotar {
+		transition: 2.5s ease;
+	}
+	.rotar:hover{
+		background-color: #297257;
+		padding: 10%;
+		color: #AA692E;
+	}
+	.rotar img:hover{
+		transform : rotate(50deg);
+		padding: 5%;
+		background-color: #AA692E;
+	}
+	h1{
+		font-size: 4em;
+		letter-spacing: 2px;
+	}
+}
